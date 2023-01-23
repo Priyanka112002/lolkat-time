@@ -1,0 +1,56 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+
+}
+
+body{
+background:#ef5b50;
+font-family:bungee;
+text-align:center;
+}
+
+h1,h2,h3{
+  font-family: 'Bungee Shade', cursive;  
+}
+
+blockquote:before { content: '"'; }
+blockquote:after{ content:'"'}
+
+
+
+blockquote{
+font:4em,3em 'Open Sans',sans-serif;	
+-webkit-text-stroke:1px black;
+text-shadow:2px 2px skyblue;	
+margin-top:-50px;	
+  margin: -70px 0 120px 0;
+color:white;
+font-size:25px;
+}
+
+#lolcatImage:hover{
+	background:blue;
+}
+
+#selectorforwaketime,#selectorforLunchtime,#selectorforNaptime{
+padding:5px;
+color:blue;
+border:1px solid gray;
+	border-radius:5px;
+}
+
+#party{
+padding:10px;
+margin:10px;
+border-radius:5px;
+box-shadow:2px 2px gray;
+font-size:25px;
+width:230px;	
+	
+}
+#party:hover{
+background:blue;	
+	
+}
